@@ -12,7 +12,6 @@
 		9A9D32FD18CC10BB003825F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D32FC18CC10BB003825F1 /* UIKit.framework */; };
 		9A9D330318CC10BB003825F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D330118CC10BB003825F1 /* InfoPlist.strings */; };
 		9A9D330518CC10BB003825F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D330418CC10BB003825F1 /* main.m */; };
-		9A9D330918CC10BB003825F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D330818CC10BB003825F1 /* AppDelegate.m */; };
 		9A9D331418CC10BB003825F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D331318CC10BB003825F1 /* Images.xcassets */; };
 		9A9D331B18CC10BB003825F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D331A18CC10BB003825F1 /* XCTest.framework */; };
 		9A9D331C18CC10BB003825F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D32F818CC10BB003825F1 /* Foundation.framework */; };
@@ -22,6 +21,11 @@
 		9A9D333918CC11C5003825F1 /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D333818CC11C5003825F1 /* EmployeeViewController.m */; };
 		9A9D333B18CC11F2003825F1 /* EmployeeViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D333A18CC11F2003825F1 /* EmployeeViewController~iPad.xib */; };
 		9A9D333D18CC1204003825F1 /* EmployeeViewController~iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D333C18CC1204003825F1 /* EmployeeViewController~iPhone.xib */; };
+		9A9D334818CC1508003825F1 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334318CC1508003825F1 /* TFHpple.m */; };
+		9A9D334918CC1508003825F1 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334518CC1508003825F1 /* TFHppleElement.m */; };
+		9A9D334A18CC1508003825F1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334718CC1508003825F1 /* XPathQuery.m */; };
+		9A9D334C18CC151E003825F1 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D334B18CC151E003825F1 /* libxml2.2.dylib */; };
+		9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334E18CC15BE003825F1 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +47,6 @@
 		9A9D330218CC10BB003825F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A9D330418CC10BB003825F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A9D330618CC10BB003825F1 /* Who's Who-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Who's Who-Prefix.pch"; sourceTree = "<group>"; };
-		9A9D330718CC10BB003825F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Who's Who/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		9A9D330818CC10BB003825F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Who's Who/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		9A9D331318CC10BB003825F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A9D331918CC10BB003825F1 /* Who's WhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who's WhoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9D331A18CC10BB003825F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,6 +57,15 @@
 		9A9D333818CC11C5003825F1 /* EmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
 		9A9D333A18CC11F2003825F1 /* EmployeeViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "EmployeeViewController~iPad.xib"; sourceTree = "<group>"; };
 		9A9D333C18CC1204003825F1 /* EmployeeViewController~iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "EmployeeViewController~iPhone.xib"; sourceTree = "<group>"; };
+		9A9D334218CC1508003825F1 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		9A9D334318CC1508003825F1 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		9A9D334418CC1508003825F1 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		9A9D334518CC1508003825F1 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		9A9D334618CC1508003825F1 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		9A9D334718CC1508003825F1 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		9A9D334B18CC151E003825F1 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		9A9D334D18CC15BE003825F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A9D334E18CC15BE003825F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9D334C18CC151E003825F1 /* libxml2.2.dylib in Frameworks */,
 				9A9D32FB18CC10BB003825F1 /* CoreGraphics.framework in Frameworks */,
 				9A9D32FD18CC10BB003825F1 /* UIKit.framework in Frameworks */,
 				9A9D32F918CC10BB003825F1 /* Foundation.framework in Frameworks */,
@@ -103,6 +115,7 @@
 		9A9D32F718CC10BB003825F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D334B18CC151E003825F1 /* libxml2.2.dylib */,
 				9A9D32F818CC10BB003825F1 /* Foundation.framework */,
 				9A9D32FA18CC10BB003825F1 /* CoreGraphics.framework */,
 				9A9D32FC18CC10BB003825F1 /* UIKit.framework */,
@@ -168,6 +181,7 @@
 		9A9D333118CC11AE003825F1 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D334118CC1508003825F1 /* Happle */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -206,8 +220,8 @@
 		9A9D333E18CC1367003825F1 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				9A9D330718CC10BB003825F1 /* AppDelegate.h */,
-				9A9D330818CC10BB003825F1 /* AppDelegate.m */,
+				9A9D334D18CC15BE003825F1 /* AppDelegate.h */,
+				9A9D334E18CC15BE003825F1 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -217,6 +231,19 @@
 			children = (
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		9A9D334118CC1508003825F1 /* Happle */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D334218CC1508003825F1 /* TFHpple.h */,
+				9A9D334318CC1508003825F1 /* TFHpple.m */,
+				9A9D334418CC1508003825F1 /* TFHppleElement.h */,
+				9A9D334518CC1508003825F1 /* TFHppleElement.m */,
+				9A9D334618CC1508003825F1 /* XPathQuery.h */,
+				9A9D334718CC1508003825F1 /* XPathQuery.m */,
+			);
+			path = Happle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,9 +344,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9D330918CC10BB003825F1 /* AppDelegate.m in Sources */,
 				9A9D330518CC10BB003825F1 /* main.m in Sources */,
 				9A9D333918CC11C5003825F1 /* EmployeeViewController.m in Sources */,
+				9A9D334818CC1508003825F1 /* TFHpple.m in Sources */,
+				9A9D334A18CC1508003825F1 /* XPathQuery.m in Sources */,
+				9A9D334918CC1508003825F1 /* TFHppleElement.m in Sources */,
+				9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +424,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -428,6 +463,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +562,7 @@
 				9A9D332C18CC10BB003825F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9D332D18CC10BB003825F1 /* Build configuration list for PBXNativeTarget "Who's WhoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +571,7 @@
 				9A9D332F18CC10BB003825F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
