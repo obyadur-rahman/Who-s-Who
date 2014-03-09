@@ -7,26 +7,55 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmployeeViewController">
             <connections>
-                <outlet property="employeeTableView" destination="kim-gF-7sw" id="vPn-Qa-hqe"/>
-                <outlet property="view" destination="N0P-9o-HZC" id="r80-Oh-gg6"/>
+                <outlet property="employeeTableView" destination="7Sz-hR-lOg" id="PKz-6p-kYH"/>
+                <outlet property="view" destination="1NO-gA-1hd" id="m9d-4i-xaA"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="N0P-9o-HZC">
+        <view contentMode="scaleToFill" id="1NO-gA-1hd">
             <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="kim-gF-7sw">
-                    <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqq-Tw-lTC">
+                    <rect key="frame" x="-34" y="-75" width="768" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7Sz-hR-lOg">
+                    <rect key="frame" x="0.0" y="44" width="768" height="960"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="Faz-B3-eMM"/>
-                        <outlet property="delegate" destination="-1" id="GJY-yS-BQd"/>
+                        <outlet property="dataSource" destination="-1" id="k3y-kd-1r1"/>
+                        <outlet property="delegate" destination="-1" id="sGC-eH-aAA"/>
                     </connections>
                 </tableView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPf-bT-0AO">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="QGx-EH-CHD"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Who's Who" id="wL7-rL-CQX">
+                            <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="8nU-GG-5Ry">
+                                <connections>
+                                    <action selector="refreshEmployees:" destination="-1" id="LpI-B3-TEu"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZPf-bT-0AO" secondAttribute="trailing" id="0XH-tS-XVf"/>
+                <constraint firstItem="ZPf-bT-0AO" firstAttribute="leading" secondItem="1NO-gA-1hd" secondAttribute="leading" id="78M-je-nhA"/>
+                <constraint firstAttribute="bottom" secondItem="7Sz-hR-lOg" secondAttribute="bottom" id="Io9-p5-P56"/>
+                <constraint firstItem="7Sz-hR-lOg" firstAttribute="top" secondItem="ZPf-bT-0AO" secondAttribute="bottom" id="Orz-mI-aNp"/>
+                <constraint firstAttribute="trailing" secondItem="7Sz-hR-lOg" secondAttribute="trailing" id="Wqu-98-q2E"/>
+                <constraint firstItem="ZPf-bT-0AO" firstAttribute="top" secondItem="1NO-gA-1hd" secondAttribute="top" id="brt-7d-2sD"/>
+                <constraint firstItem="7Sz-hR-lOg" firstAttribute="leading" secondItem="1NO-gA-1hd" secondAttribute="leading" id="jJF-v3-P6K"/>
+            </constraints>
         </view>
     </objects>
 </document>

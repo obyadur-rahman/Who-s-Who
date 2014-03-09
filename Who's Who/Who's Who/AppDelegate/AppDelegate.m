@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "EmployeeViewController.h"
+#import "Helper.h"
 
 @implementation AppDelegate
 
@@ -16,14 +17,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
-    {
-        self.employeeViewController = [[EmployeeViewController alloc] initWithNibName:@"EmployeeViewController~iPad" bundle:nil];
-    }
-    else
-    {
-        self.employeeViewController = [[EmployeeViewController alloc] initWithNibName:@"EmployeeViewController~iPhone" bundle:nil];
-    }
+    self.employeeViewController = [[EmployeeViewController alloc] initWithNibName:[Helper getNibNameForClass:[EmployeeViewController class]] bundle:nil];
     
     self.window.rootViewController = self.employeeViewController;
     

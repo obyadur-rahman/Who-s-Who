@@ -27,6 +27,15 @@
 		9A9D334C18CC151E003825F1 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D334B18CC151E003825F1 /* libxml2.2.dylib */; };
 		9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334E18CC15BE003825F1 /* AppDelegate.m */; };
 		9A9D335218CC1729003825F1 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335118CC1729003825F1 /* Employee.m */; };
+		9A9D335518CC2495003825F1 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335418CC2495003825F1 /* Helper.m */; };
+		9A9D335918CC2561003825F1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335818CC2561003825F1 /* Reachability.m */; };
+		9A9D335B18CC2573003825F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D335A18CC2573003825F1 /* SystemConfiguration.framework */; };
+		9A9D335E18CC25CA003825F1 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335D18CC25CA003825F1 /* ImageDownloader.m */; };
+		9A9D336118CC267B003825F1 /* EmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D336018CC267B003825F1 /* EmployeeCell.m */; };
+		9A9D336318CC2690003825F1 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336218CC2690003825F1 /* EmployeeCell.xib */; };
+		9A9D336518CC2970003825F1 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336418CC2970003825F1 /* Placeholder.png */; };
+		9A9D336718CC3266003825F1 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336618CC3266003825F1 /* loading.png */; };
+		9A9D336918CC3327003825F1 /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336818CC3327003825F1 /* offline.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,19 @@
 		9A9D334E18CC15BE003825F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A9D335018CC1729003825F1 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		9A9D335118CC1729003825F1 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		9A9D335318CC2495003825F1 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		9A9D335418CC2495003825F1 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		9A9D335718CC2561003825F1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9A9D335818CC2561003825F1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9A9D335A18CC2573003825F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A9D335C18CC25CA003825F1 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		9A9D335D18CC25CA003825F1 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		9A9D335F18CC267B003825F1 /* EmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCell.h; sourceTree = "<group>"; };
+		9A9D336018CC267B003825F1 /* EmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCell.m; sourceTree = "<group>"; };
+		9A9D336218CC2690003825F1 /* EmployeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		9A9D336418CC2970003825F1 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		9A9D336618CC3266003825F1 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		9A9D336818CC3327003825F1 /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9D335B18CC2573003825F1 /* SystemConfiguration.framework in Frameworks */,
 				9A9D334C18CC151E003825F1 /* libxml2.2.dylib in Frameworks */,
 				9A9D32FB18CC10BB003825F1 /* CoreGraphics.framework in Frameworks */,
 				9A9D32FD18CC10BB003825F1 /* UIKit.framework in Frameworks */,
@@ -118,6 +141,7 @@
 		9A9D32F718CC10BB003825F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D335A18CC2573003825F1 /* SystemConfiguration.framework */,
 				9A9D334B18CC151E003825F1 /* libxml2.2.dylib */,
 				9A9D32F818CC10BB003825F1 /* Foundation.framework */,
 				9A9D32FA18CC10BB003825F1 /* CoreGraphics.framework */,
@@ -177,6 +201,8 @@
 			children = (
 				9A9D333718CC11C5003825F1 /* EmployeeViewController.h */,
 				9A9D333818CC11C5003825F1 /* EmployeeViewController.m */,
+				9A9D335F18CC267B003825F1 /* EmployeeCell.h */,
+				9A9D336018CC267B003825F1 /* EmployeeCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +210,7 @@
 		9A9D333118CC11AE003825F1 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D335618CC2561003825F1 /* Reachability */,
 				9A9D334118CC1508003825F1 /* Happle */,
 			);
 			path = External;
@@ -209,6 +236,9 @@
 		9A9D333518CC11AE003825F1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D336818CC3327003825F1 /* offline.png */,
+				9A9D336618CC3266003825F1 /* loading.png */,
+				9A9D336418CC2970003825F1 /* Placeholder.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -218,6 +248,7 @@
 			children = (
 				9A9D333A18CC11F2003825F1 /* EmployeeViewController~iPad.xib */,
 				9A9D333C18CC1204003825F1 /* EmployeeViewController~iPhone.xib */,
+				9A9D336218CC2690003825F1 /* EmployeeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -234,6 +265,10 @@
 		9A9D334018CC1386003825F1 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D335318CC2495003825F1 /* Helper.h */,
+				9A9D335418CC2495003825F1 /* Helper.m */,
+				9A9D335C18CC25CA003825F1 /* ImageDownloader.h */,
+				9A9D335D18CC25CA003825F1 /* ImageDownloader.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -249,6 +284,15 @@
 				9A9D334718CC1508003825F1 /* XPathQuery.m */,
 			);
 			path = Happle;
+			sourceTree = "<group>";
+		};
+		9A9D335618CC2561003825F1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D335718CC2561003825F1 /* Reachability.h */,
+				9A9D335818CC2561003825F1 /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,9 +372,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9D331418CC10BB003825F1 /* Images.xcassets in Resources */,
+				9A9D336918CC3327003825F1 /* offline.png in Resources */,
+				9A9D336518CC2970003825F1 /* Placeholder.png in Resources */,
 				9A9D330318CC10BB003825F1 /* InfoPlist.strings in Resources */,
 				9A9D333D18CC1204003825F1 /* EmployeeViewController~iPhone.xib in Resources */,
 				9A9D333B18CC11F2003825F1 /* EmployeeViewController~iPad.xib in Resources */,
+				9A9D336318CC2690003825F1 /* EmployeeCell.xib in Resources */,
+				9A9D336718CC3266003825F1 /* loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,12 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9D336118CC267B003825F1 /* EmployeeCell.m in Sources */,
 				9A9D330518CC10BB003825F1 /* main.m in Sources */,
 				9A9D333918CC11C5003825F1 /* EmployeeViewController.m in Sources */,
+				9A9D335E18CC25CA003825F1 /* ImageDownloader.m in Sources */,
 				9A9D334818CC1508003825F1 /* TFHpple.m in Sources */,
+				9A9D335518CC2495003825F1 /* Helper.m in Sources */,
 				9A9D334A18CC1508003825F1 /* XPathQuery.m in Sources */,
 				9A9D334918CC1508003825F1 /* TFHppleElement.m in Sources */,
 				9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */,
+				9A9D335918CC2561003825F1 /* Reachability.m in Sources */,
 				9A9D335218CC1729003825F1 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

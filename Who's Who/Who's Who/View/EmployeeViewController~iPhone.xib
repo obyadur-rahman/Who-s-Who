@@ -7,26 +7,51 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmployeeViewController">
             <connections>
-                <outlet property="employeeTableView" destination="0A4-Cp-R6a" id="2pH-kr-lt7"/>
-                <outlet property="view" destination="jf1-Mo-cgy" id="fIY-Ed-fMQ"/>
+                <outlet property="employeeTableView" destination="rDC-Zr-wEN" id="EoU-dy-fbq"/>
+                <outlet property="view" destination="mfa-8V-RlJ" id="fBW-zA-eDO"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="jf1-Mo-cgy">
+        <view contentMode="scaleToFill" id="mfa-8V-RlJ">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="0A4-Cp-R6a">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-Zr-wEN">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="DBd-kc-adD"/>
-                        <outlet property="delegate" destination="-1" id="wNb-sz-qFb"/>
+                        <outlet property="dataSource" destination="-1" id="aUR-Ku-YYB"/>
+                        <outlet property="delegate" destination="-1" id="roj-kg-oKa"/>
                     </connections>
                 </tableView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3q-VX-ob5">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="gfk-KK-po1"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Who's Who" id="GCg-NH-0ec">
+                            <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="EC5-6y-zJE">
+                                <connections>
+                                    <action selector="refreshEmployees:" destination="-1" id="BJ6-mr-bgv"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="F3q-VX-ob5" secondAttribute="trailing" id="08A-pG-hpT"/>
+                <constraint firstAttribute="trailing" secondItem="rDC-Zr-wEN" secondAttribute="trailing" id="6Pk-bt-rcw"/>
+                <constraint firstItem="F3q-VX-ob5" firstAttribute="top" secondItem="mfa-8V-RlJ" secondAttribute="top" id="JMD-fq-rDG"/>
+                <constraint firstAttribute="bottom" secondItem="rDC-Zr-wEN" secondAttribute="bottom" id="Uur-t6-o4f"/>
+                <constraint firstItem="rDC-Zr-wEN" firstAttribute="leading" secondItem="mfa-8V-RlJ" secondAttribute="leading" id="W9B-jY-Cen"/>
+                <constraint firstItem="rDC-Zr-wEN" firstAttribute="top" secondItem="F3q-VX-ob5" secondAttribute="bottom" id="hoS-o7-BFO"/>
+                <constraint firstItem="F3q-VX-ob5" firstAttribute="leading" secondItem="mfa-8V-RlJ" secondAttribute="leading" id="yXI-DC-wtZ"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
