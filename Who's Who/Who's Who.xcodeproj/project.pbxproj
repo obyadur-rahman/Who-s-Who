@@ -26,6 +26,7 @@
 		9A9D334A18CC1508003825F1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334718CC1508003825F1 /* XPathQuery.m */; };
 		9A9D334C18CC151E003825F1 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D334B18CC151E003825F1 /* libxml2.2.dylib */; };
 		9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D334E18CC15BE003825F1 /* AppDelegate.m */; };
+		9A9D335218CC1729003825F1 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335118CC1729003825F1 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		9A9D334B18CC151E003825F1 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		9A9D334D18CC15BE003825F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A9D334E18CC15BE003825F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A9D335018CC1729003825F1 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		9A9D335118CC1729003825F1 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 		9A9D333318CC11AE003825F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A9D335018CC1729003825F1 /* Employee.h */,
+				9A9D335118CC1729003825F1 /* Employee.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				9A9D334A18CC1508003825F1 /* XPathQuery.m in Sources */,
 				9A9D334918CC1508003825F1 /* TFHppleElement.m in Sources */,
 				9A9D334F18CC15BE003825F1 /* AppDelegate.m in Sources */,
+				9A9D335218CC1729003825F1 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
