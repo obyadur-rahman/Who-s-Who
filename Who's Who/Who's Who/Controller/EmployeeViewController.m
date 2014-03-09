@@ -280,6 +280,10 @@ NSString *const SERVER_URL = @"http://www.theappbusiness.com/our-team/";
 
 - (void)loadEmployeeListFromServer
 {
+    // Remove previous items
+    [_employees removeAllObjects];
+    [self.imageDownloadsInProgress removeAllObjects];
+    
     if ([Helper isConnectionAvailable])
     {
         isOnlineMode = YES;
