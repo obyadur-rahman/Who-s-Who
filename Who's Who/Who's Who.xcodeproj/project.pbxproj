@@ -33,7 +33,6 @@
 		9A9D335E18CC25CA003825F1 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D335D18CC25CA003825F1 /* ImageDownloader.m */; };
 		9A9D336118CC267B003825F1 /* EmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D336018CC267B003825F1 /* EmployeeCell.m */; };
 		9A9D336318CC2690003825F1 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336218CC2690003825F1 /* EmployeeCell.xib */; };
-		9A9D336518CC2970003825F1 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336418CC2970003825F1 /* Placeholder.png */; };
 		9A9D336718CC3266003825F1 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336618CC3266003825F1 /* loading.png */; };
 		9A9D336918CC3327003825F1 /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D336818CC3327003825F1 /* offline.png */; };
 /* End PBXBuildFile section */
@@ -88,7 +87,6 @@
 		9A9D335F18CC267B003825F1 /* EmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCell.h; sourceTree = "<group>"; };
 		9A9D336018CC267B003825F1 /* EmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCell.m; sourceTree = "<group>"; };
 		9A9D336218CC2690003825F1 /* EmployeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
-		9A9D336418CC2970003825F1 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		9A9D336618CC3266003825F1 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		9A9D336818CC3327003825F1 /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,7 +236,6 @@
 			children = (
 				9A9D336818CC3327003825F1 /* offline.png */,
 				9A9D336618CC3266003825F1 /* loading.png */,
-				9A9D336418CC2970003825F1 /* Placeholder.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -373,7 +370,6 @@
 			files = (
 				9A9D331418CC10BB003825F1 /* Images.xcassets in Resources */,
 				9A9D336918CC3327003825F1 /* offline.png in Resources */,
-				9A9D336518CC2970003825F1 /* Placeholder.png in Resources */,
 				9A9D330318CC10BB003825F1 /* InfoPlist.strings in Resources */,
 				9A9D333D18CC1204003825F1 /* EmployeeViewController~iPhone.xib in Resources */,
 				9A9D333B18CC11F2003825F1 /* EmployeeViewController~iPad.xib in Resources */,
