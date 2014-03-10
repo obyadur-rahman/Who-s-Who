@@ -280,12 +280,13 @@ NSString *const SERVER_URL = @"http://www.theappbusiness.com/our-team/";
 
 - (void)loadEmployeeListFromServer
 {
-    // Remove previous items
-    [_employees removeAllObjects];
-    [self.imageDownloadsInProgress removeAllObjects];
     
     if ([Helper isConnectionAvailable])
     {
+        // Remove previous items
+        [_employees removeAllObjects];
+        [self.imageDownloadsInProgress removeAllObjects];
+        
         isOnlineMode = YES;
         [self loadEmployees];
     }
@@ -360,6 +361,10 @@ NSString *const SERVER_URL = @"http://www.theappbusiness.com/our-team/";
     //
     if (buttonIndex == 0 && alertView.tag == 999)
     {
+        // Remove previous items
+        [_employees removeAllObjects];
+        [self.imageDownloadsInProgress removeAllObjects];
+        
         _employees = [Helper getEmployeeData];
         [self.employeeTableView reloadData];
     }
